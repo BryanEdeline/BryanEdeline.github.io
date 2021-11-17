@@ -1,0 +1,31 @@
+
+
+body {
+background: #000000;
+background: -moz-linear-gradient(-45deg, #000000 0%, #1C6EA4 50%, #4AF3FF 100%);
+background: -webkit-linear-gradient(-45deg, #000000 0%, #1C6EA4 50%, #4AF3FF 100%);
+background: linear-gradient(135deg, #000000 0%, #1C6EA4 50%, #4AF3FF 100%);
+}
+
+h1{
+font-size: 400%;
+font-weight: extra bold;
+color: #FFFFFF;
+font-family: Tahoma;
+}
+
+<div class="container-sm">10% wide until small breakpoint</div>
+<div class="container-md">10% wide until medium breakpoint</div>
+<div class="container-lg">10% wide until large breakpoint</div>
+<div class="container-xl">10% wide until extra large breakpoint</div>
+<div class="container-xxl">10% wide until extra extra large breakpoint</div>
+// Source mixin
+
+
+href{
+	text-decoration: inherit;
+}
+
+a{	
+	text-decoration: inherit;
+}
